@@ -1,0 +1,13 @@
+C:\Users\12545\AppData\Local\Temp\HelloSample\module-compilation-cross-platform\HelloSample.dll
+C:\Users\12545\AppData\Local\Temp\HelloSample\module-compilation-cross-platform\HelloSample.deps.json
+C:\Users\12545\AppData\Local\Temp\HelloSample\module-compilation-cross-platform\HelloSample.pdb
+C:\Users\12545\AppData\Local\Temp\HelloSample\module-compilation-cross-platform\Unity.Services.CloudCode.Apis.dll
+C:\Users\12545\AppData\Local\Temp\HelloSample\module-compilation-cross-platform\Unity.Services.CloudCode.Core.dll
+C:\Users\12545\AppData\Local\Temp\HelloSample\module-compilation-cross-platform\Google.Protobuf.dll
+C:\Users\12545\AppData\Local\Temp\HelloSample\module-compilation-cross-platform\Grpc.Core.Api.dll
+C:\Users\12545\AppData\Local\Temp\HelloSample\module-compilation-cross-platform\Grpc.Net.Client.dll
+C:\Users\12545\AppData\Local\Temp\HelloSample\module-compilation-cross-platform\Grpc.Net.Common.dll
+C:\Users\12545\AppData\Local\Temp\HelloSample\module-compilation-cross-platform\JsonSubTypes.dll
+C:\Users\12545\AppData\Local\Temp\HelloSample\module-compilation-cross-platform\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\12545\AppData\Local\Temp\HelloSample\module-compilation-cross-platform\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\12545\AppData\Local\Temp\HelloSample\module-compilation-cross-platform\Newtonsoft.Json.dll

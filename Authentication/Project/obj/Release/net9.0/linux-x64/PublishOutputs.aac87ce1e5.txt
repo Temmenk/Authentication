@@ -1,0 +1,8 @@
+C:\Users\12545\AppData\Local\Temp\Authentication\module-compilation\Authentication.dll
+C:\Users\12545\AppData\Local\Temp\Authentication\module-compilation\Authentication.deps.json
+C:\Users\12545\AppData\Local\Temp\Authentication\module-compilation\Authentication.pdb
+C:\Users\12545\AppData\Local\Temp\Authentication\module-compilation\Unity.Services.CloudCode.Apis.dll
+C:\Users\12545\AppData\Local\Temp\Authentication\module-compilation\Unity.Services.CloudCode.Core.dll
+C:\Users\12545\AppData\Local\Temp\Authentication\module-compilation\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\12545\AppData\Local\Temp\Authentication\module-compilation\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\12545\AppData\Local\Temp\Authentication\module-compilation\Newtonsoft.Json.dll

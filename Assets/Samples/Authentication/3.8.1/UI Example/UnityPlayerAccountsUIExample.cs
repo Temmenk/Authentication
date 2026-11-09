@@ -74,6 +74,7 @@ namespace Unity.Services.Authentication.PlayerAccounts.Samples
             try
             {
                 await AuthenticationService.Instance.SignInWithUnityAsync(PlayerAccountService.Instance.AccessToken);
+                
                 UpdateUI();
             }
             catch (RequestFailedException ex)

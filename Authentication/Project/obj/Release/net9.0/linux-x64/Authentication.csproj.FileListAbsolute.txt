@@ -1,0 +1,13 @@
+C:\Users\12545\Desktop\School\Fall 2026\multiplayer\Repo\Authentication\Authentication\Project\bin\Release\net9.0\linux-x64\Authentication.deps.json
+C:\Users\12545\Desktop\School\Fall 2026\multiplayer\Repo\Authentication\Authentication\Project\bin\Release\net9.0\linux-x64\Authentication.dll
+C:\Users\12545\Desktop\School\Fall 2026\multiplayer\Repo\Authentication\Authentication\Project\bin\Release\net9.0\linux-x64\Authentication.pdb
+C:\Users\12545\Desktop\School\Fall 2026\multiplayer\Repo\Authentication\Authentication\Project\obj\Release\net9.0\linux-x64\Authentication.csproj.AssemblyReference.cache
+C:\Users\12545\Desktop\School\Fall 2026\multiplayer\Repo\Authentication\Authentication\Project\obj\Release\net9.0\linux-x64\Authentication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\12545\Desktop\School\Fall 2026\multiplayer\Repo\Authentication\Authentication\Project\obj\Release\net9.0\linux-x64\Authentication.AssemblyInfoInputs.cache
+C:\Users\12545\Desktop\School\Fall 2026\multiplayer\Repo\Authentication\Authentication\Project\obj\Release\net9.0\linux-x64\Authentication.AssemblyInfo.cs
+C:\Users\12545\Desktop\School\Fall 2026\multiplayer\Repo\Authentication\Authentication\Project\obj\Release\net9.0\linux-x64\Authentication.csproj.CoreCompileInputs.cache
+C:\Users\12545\Desktop\School\Fall 2026\multiplayer\Repo\Authentication\Authentication\Project\obj\Release\net9.0\linux-x64\Authentication.sourcelink.json
+C:\Users\12545\Desktop\School\Fall 2026\multiplayer\Repo\Authentication\Authentication\Project\obj\Release\net9.0\linux-x64\Authentication.dll
+C:\Users\12545\Desktop\School\Fall 2026\multiplayer\Repo\Authentication\Authentication\Project\obj\Release\net9.0\linux-x64\refint\Authentication.dll
+C:\Users\12545\Desktop\School\Fall 2026\multiplayer\Repo\Authentication\Authentication\Project\obj\Release\net9.0\linux-x64\Authentication.pdb
+C:\Users\12545\Desktop\School\Fall 2026\multiplayer\Repo\Authentication\Authentication\Project\obj\Release\net9.0\linux-x64\ref\Authentication.dll

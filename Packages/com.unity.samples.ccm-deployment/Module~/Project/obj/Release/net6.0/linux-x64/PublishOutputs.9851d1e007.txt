@@ -1,0 +1,13 @@
+/var/folders/p2/0jds0qdj6xgd5_yc7p1glb000000gn/T/HelloSample/module-compilation/HelloSample.dll
+/var/folders/p2/0jds0qdj6xgd5_yc7p1glb000000gn/T/HelloSample/module-compilation/HelloSample.deps.json
+/var/folders/p2/0jds0qdj6xgd5_yc7p1glb000000gn/T/HelloSample/module-compilation/HelloSample.pdb
+/var/folders/p2/0jds0qdj6xgd5_yc7p1glb000000gn/T/HelloSample/module-compilation/Unity.Services.CloudCode.Apis.dll
+/var/folders/p2/0jds0qdj6xgd5_yc7p1glb000000gn/T/HelloSample/module-compilation/Unity.Services.CloudCode.Core.dll
+/var/folders/p2/0jds0qdj6xgd5_yc7p1glb000000gn/T/HelloSample/module-compilation/Google.Protobuf.dll
+/var/folders/p2/0jds0qdj6xgd5_yc7p1glb000000gn/T/HelloSample/module-compilation/Grpc.Core.Api.dll
+/var/folders/p2/0jds0qdj6xgd5_yc7p1glb000000gn/T/HelloSample/module-compilation/Grpc.Net.Client.dll
+/var/folders/p2/0jds0qdj6xgd5_yc7p1glb000000gn/T/HelloSample/module-compilation/Grpc.Net.Common.dll
+/var/folders/p2/0jds0qdj6xgd5_yc7p1glb000000gn/T/HelloSample/module-compilation/JsonSubTypes.dll
+/var/folders/p2/0jds0qdj6xgd5_yc7p1glb000000gn/T/HelloSample/module-compilation/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/var/folders/p2/0jds0qdj6xgd5_yc7p1glb000000gn/T/HelloSample/module-compilation/Microsoft.Extensions.Logging.Abstractions.dll
+/var/folders/p2/0jds0qdj6xgd5_yc7p1glb000000gn/T/HelloSample/module-compilation/Newtonsoft.Json.dll

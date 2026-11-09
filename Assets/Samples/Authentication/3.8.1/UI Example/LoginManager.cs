@@ -1,3 +1,4 @@
+using System;
 using System.Threading.Tasks;
 using NUnit.Framework;
 using Unity.Services.Authentication;
@@ -8,6 +9,7 @@ using UnityEngine;
 
 public class LoginManager : MonoBehaviour
 {
+    public Action PlayerSignedIn;
     private async void Awake()
     {
         if(UnityServices.State == ServicesInitializationState.Uninitialized)
@@ -18,15 +20,21 @@ public class LoginManager : MonoBehaviour
         PlayerAccountService.Instance.SignedIn += SignInOrLinkWithUnity;
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    async void Start()
     {
-        
+        if(!AuthenticationService.Instance.SessionTokenExists)
+        {
+            Debug.Log("session token not found");
+            return;
+        }
+        Debug.Log("returning player signing in");
+        await SignInAnonymouslyAsync();
     }
     public async void StartAnonymousSignIn()
     {
-        await SignUpAnonymouslyAsync();
+        await SignInAnonymouslyAsync();
     }
-    private async Task SignUpAnonymouslyAsync()
+    private async Task SignInAnonymouslyAsync()
 {
     try
     {
@@ -35,6 +43,8 @@ public class LoginManager : MonoBehaviour
 
         // Shows how to get the playerID
         Debug.Log($"PlayerID: {AuthenticationService.Instance.PlayerId}");
+
+        PlayerSignedIn.Invoke();
 
     }
     catch (AuthenticationException ex)

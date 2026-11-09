@@ -1,3 +1,6 @@
 ﻿<Solution>
   <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="Sample_CloudCodeModulesHello.csproj" />
+  <Project Path="Sample_CloudCodeScriptsHello.csproj" />
+  <Project Path="Unity.Services.CloudCode.GeneratedBindings.csproj" />
 </Solution>

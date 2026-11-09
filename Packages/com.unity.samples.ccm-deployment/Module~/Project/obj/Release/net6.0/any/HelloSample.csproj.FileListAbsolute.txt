@@ -1,0 +1,13 @@
+C:\Users\12545\Desktop\School\Fall 2026\multiplayer\Repo\Authentication\Packages\com.unity.samples.ccm-deployment\Module~\Project\bin\Release\net6.0\any\HelloSample.deps.json
+C:\Users\12545\Desktop\School\Fall 2026\multiplayer\Repo\Authentication\Packages\com.unity.samples.ccm-deployment\Module~\Project\bin\Release\net6.0\any\HelloSample.dll
+C:\Users\12545\Desktop\School\Fall 2026\multiplayer\Repo\Authentication\Packages\com.unity.samples.ccm-deployment\Module~\Project\bin\Release\net6.0\any\HelloSample.pdb
+C:\Users\12545\Desktop\School\Fall 2026\multiplayer\Repo\Authentication\Packages\com.unity.samples.ccm-deployment\Module~\Project\obj\Release\net6.0\any\HelloSample.csproj.AssemblyReference.cache
+C:\Users\12545\Desktop\School\Fall 2026\multiplayer\Repo\Authentication\Packages\com.unity.samples.ccm-deployment\Module~\Project\obj\Release\net6.0\any\HelloSample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\12545\Desktop\School\Fall 2026\multiplayer\Repo\Authentication\Packages\com.unity.samples.ccm-deployment\Module~\Project\obj\Release\net6.0\any\HelloSample.AssemblyInfoInputs.cache
+C:\Users\12545\Desktop\School\Fall 2026\multiplayer\Repo\Authentication\Packages\com.unity.samples.ccm-deployment\Module~\Project\obj\Release\net6.0\any\HelloSample.AssemblyInfo.cs
+C:\Users\12545\Desktop\School\Fall 2026\multiplayer\Repo\Authentication\Packages\com.unity.samples.ccm-deployment\Module~\Project\obj\Release\net6.0\any\HelloSample.csproj.CoreCompileInputs.cache
+C:\Users\12545\Desktop\School\Fall 2026\multiplayer\Repo\Authentication\Packages\com.unity.samples.ccm-deployment\Module~\Project\obj\Release\net6.0\any\HelloSample.sourcelink.json
+C:\Users\12545\Desktop\School\Fall 2026\multiplayer\Repo\Authentication\Packages\com.unity.samples.ccm-deployment\Module~\Project\obj\Release\net6.0\any\HelloSample.dll
+C:\Users\12545\Desktop\School\Fall 2026\multiplayer\Repo\Authentication\Packages\com.unity.samples.ccm-deployment\Module~\Project\obj\Release\net6.0\any\refint\HelloSample.dll
+C:\Users\12545\Desktop\School\Fall 2026\multiplayer\Repo\Authentication\Packages\com.unity.samples.ccm-deployment\Module~\Project\obj\Release\net6.0\any\HelloSample.pdb
+C:\Users\12545\Desktop\School\Fall 2026\multiplayer\Repo\Authentication\Packages\com.unity.samples.ccm-deployment\Module~\Project\obj\Release\net6.0\any\ref\HelloSample.dll
