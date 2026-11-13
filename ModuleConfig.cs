@@ -1,0 +1,20 @@
+﻿sing Authentication;
+using Microsoft.Extensions.DependencyInjection;
+using System;
+using Unity.Services.CloudCode.Apis;
+using Unity.Services.CloudCode.Core;
+
+
+
+public class ModuleConfig : ICloudCodeSetup
+{
+    public void Setup(ICloudCodeConfig config)
+    {
+        config.Dependencies.AddSingleton(GameApiClient.Create());
+
+        //config.Dependencies.AddSingleton<PlayerEconomyService>();
+        // config.Dependencies.AddSingleton<PlayerDataService>();
+    }
+}
+
+

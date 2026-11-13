@@ -1,19 +1,25 @@
-using UnityEngine;
-using Unity.Services.CloudCode.GeneratedBindings;
-using Unity.Services.CloudCode;
 using System;
-using System.Threading.Tasks;
+using UnityEngine;
+using Unity.Services.CloudCode;
+using Unity.Services.CloudCode.GeneratedBindings;
 using System.Linq;
+using Newtonsoft.Json;
 
-public class PlayerDataManger : MonoBehaviour
+public class PlayerDataManager : MonoBehaviour
 {
-    private PlayerDataServiceBindings m_Bindings;
-    public LoginManager loginManager;
+    public LoginManager LoginManager;
+    [SerializeField]
+    private PlayerEconomyManager m_PlayerEconomyManager;
     public string PlayerName;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public PlayerData PlayerDataLocal;
+    private PlayerDataServiceBindings m_Bindings;
+
+    public event Action<PlayerData> PlayerDataUpdated;
+
     void Start()
     {
-        loginManager.PlayerSignedIn += InitializePlayer;
+        LoginManager.PlayerSignedIn += InitializePlayer;
+
         m_Bindings = new PlayerDataServiceBindings(CloudCodeService.Instance);
     }
 
@@ -21,8 +27,13 @@ public class PlayerDataManger : MonoBehaviour
     {
         try
         {
-            var resultFromCloud = await m_Bindings.SayHello(PlayerName);
-            Debug.Log($"{resultFromCloud}");
+            var playerDataResponse = await m_Bindings.HandlePlayerSignIn();
+            PlayerDataLocal = playerDataResponse.PlayerData;
+            PlayerDataUpdated?.Invoke(PlayerDataLocal);
+
+            m_PlayerEconomyManager.HandleEconomyUpdate(playerDataResponse.EconomyData);
+
+            LogResponse(playerDataResponse);
         }
 
         catch (CloudCodeException ex)
@@ -31,40 +42,59 @@ public class PlayerDataManger : MonoBehaviour
         }
     }
 
+    private void LogResponse(PlayerDataResponse response)
+    {
+        string economyJson = JsonConvert.SerializeObject(response.EconomyData, Formatting.Indented);
+
+        Debug.Log(
+            $"===== Player Sign-In Response =====\n" +
+            $"Name: {response.PlayerData.DisplayName}\n" +
+            $"New Player: {response.IsNewPlayer}\n" +
+            $"XP: {response.PlayerData.Experience}\n" +
+            $"Economy: {economyJson}\n" +
+            $"===================================="
+        );
+    }
+
     public async void SaveNewPlayerName()
     {
+        if (!IsPlayerNameValid(PlayerName))
+        {
+            Debug.LogWarning("Name must be 4-16 characters and contain only letters and numbers");
+            return;
+        }
+
         try
         {
             PlayerName = await m_Bindings.HandleNewPlayerNameEntry(PlayerName);
-            Debug.Log($"save new player name to cloud: {PlayerName}");
+            Debug.Log($"Saved new player name in the cloud: {PlayerName}");
         }
+
         catch (Exception ex)
         {
+            Debug.LogWarning("Player name invalid");
             Debug.LogException(ex);
         }
     }
+
     private bool IsPlayerNameValid(string name)
     {
-        if(name.Length is < 4 or > 16)
+        if (name.Length is < 4 or > 16)
         {
             return false;
         }
+
+        // Check for special characters using LINQ
         if (!name.All(c => char.IsLetterOrDigit(c)))
         {
             return false;
         }
+
         return true;
     }
 
-    private void OnDisable()
+    private void OnDestroy()
     {
-        loginManager.PlayerSignedIn -= InitializePlayer;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        LoginManager.PlayerSignedIn -= InitializePlayer;
     }
 }
-
